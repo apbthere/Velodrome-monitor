@@ -1,0 +1,31 @@
+{
+    "rpcUrl": "RPC URL",
+    "db": {
+        "user": "postgres",
+        "host": "localhost",
+        "database": "postgres",
+        "password": "your secret password",
+        "port": 5432
+    },
+    "pools": [
+        {
+            "address": "0x61366A4e6b1DB1b85DD701f2f4BFa275EF271197",
+            "priceToken": "token0"
+        },
+        {
+            "address": "0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d",
+            "priceToken": "token1"
+        }
+    ],
+     "alertThresholds": {
+        "priceChange": 2,
+        "liquidityChange": 2
+    },
+    "fetchInterval": 60000,
+    "telegram": {
+        "botToken": "Telegram Bot you got from BotFather",
+        "chatIds": [
+            Chat_ID
+        ]
+    }
+}
